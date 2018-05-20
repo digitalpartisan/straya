@@ -1,0 +1,2 @@
+mklink /j "K:\Steam\steamapps\common\Fallout 4\Data\Scripts\Straya" "K:\FO4 Mods\Straya\Data\Scripts\Straya"
+mklink /j "K:\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\Straya" "K:\FO4 Mods\Straya\Data\Scripts\Source\User\Straya"
