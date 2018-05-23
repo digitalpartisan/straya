@@ -4,6 +4,8 @@ Straya:Quest Property Straya_Quest Auto Const Mandatory
 Int Property TimerID = 1 Auto Const
 GlobalVariable Property Straya_Quest_Monitor_InGameHours Auto Const Mandatory
 GlobalVariable Property Straya_Quest_Monitor_SpawnChance Auto Const Mandatory
+Message Property Straya_Quest_Monitor_UpdatedRollFrequency Auto Const Mandatory
+Message Property Straya_Quest_Monitor_UpdatedSpawnChance Auto Const Mandatory
 
 String sStateStarting = "Starting" Const
 String sStateShutdown = "Shutdown" Const
@@ -50,6 +52,11 @@ Function cancelTiming()
 	CancelTimerGameTime(TimerID)
 EndFunction
 
+Function restartTimer()
+	cancelTiming()
+	startTiming()
+EndFunction
+
 Event Quest.OnQuestInit(Quest sender)
 	Straya:Logger.logQuestStartEvent(self, sender)
 
@@ -75,11 +82,14 @@ EndEvent
 Function setTimerDelay(Float fInGameHours = 24.0)
 	Straya:Logger.logSetFrequency(self, fInGameHours)
 	Straya_Quest_Monitor_InGameHours.SetValue(fInGameHours)
+	Straya_Quest_Monitor_UpdatedRollFrequency.Show()
+	restartTimer()
 EndFunction
 
 Function setSpawnChance(Float fPercentChance = 10.0)
 	Straya:Logger.logSetChance(self, fPercentChance)
 	Straya_Quest_Monitor_SpawnChance.SetValue(fPercentChance)
+	Straya_Quest_Monitor_UpdatedSpawnChance.Show()
 EndFunction
 
 Auto State Starting
