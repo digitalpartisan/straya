@@ -37,5 +37,15 @@
 	"Data\\Scripts\\Chronicle\\Package.pex",
 	"Data\\Scripts\\Chronicle\\Version\\STATIC.pex",
 	"Data\\Scripts\\Chronicle\\Version\\Stored.pex",
-	"Data\\Scripts\\Chronicle\\Version.pex"
+	"Data\\Scripts\\Chronicle\\Version.pex",
+	"Data\\Scripts\\Straya\\Fragments\\Terminals\\ChangeRollFrequency.pex",
+	"Data\\Scripts\\Straya\\Fragments\\Terminals\\ChangeSpawnChance.pex",
+	"Data\\Scripts\\Straya\\Fragments\\Terminals\\HolotapeEntryPoint.pex",
+	"Data\\Scripts\\Straya\\Fragments\\Terminals\\uninstall.pex",
+	"Data\\Scripts\\Straya\\Logger.pex",
+	"Data\\Scripts\\Straya\\PackageCustomizations.pex",
+	"Data\\Scripts\\Straya\\Quest\\DropBear.pex",
+	"Data\\Scripts\\Straya\\Quest\\Monitor.pex",
+	"Data\\Scripts\\Straya\\Quest.pex",
+	"Data\\Scripts\\Straya\\Uninstaller.pex"
 ]
