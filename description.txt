@@ -2,4 +2,4 @@
 
 By default, the spawn chance is 10% and the spawning interval is once every twenty-four in-game hours.  The included holotape, named "[Settings] 'Straya!" for VIS compatibility, allows changing the roll frequency and spawn chance.  You could, if you wanted, set 'Straya! to have a 100% chance to spawn a Drop Bear every in-game hour.  The holotape also gives you the option of safely uninstalling 'Straya!
 
-While not at all hard to kill (since 'Straya! is intended to be a mild inconvenience rather than a serious threat.  Even so, Drop Bears are somewhat leveled and they will hit relatively hard until they are dealt with.
+While not at all hard to kill (since 'Straya! is intended to be a mild inconvenience rather than a serious threat.  Even so, Drop Bears scale approximately with the player’s level (to 80) and they will hit relatively hard until they are dealt with.  Spawns only occur outdoors, so if a roll succeeds, 'Straya! will wait to for you to head outside so it can pounce on you before restarting the roll timer.
