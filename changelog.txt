@@ -1,4 +1,4 @@
-v1.0.1
+v1.0.2
 Fixed another Chronicle configuration error causing new updates not to process
 
 v1.0.1
