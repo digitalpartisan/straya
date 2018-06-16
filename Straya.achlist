@@ -5,6 +5,7 @@
 	"Data\\Scripts\\Straya\\Fragments\\Terminals\\uninstall.pex",
 	"Data\\Scripts\\Straya\\Logger.pex",
 	"Data\\Scripts\\Straya\\PackageCustomizations.pex",
+	"Data\\Scripts\\Straya\\PlayerAliasRepair.pex",
 	"Data\\Scripts\\Straya\\Quest\\DropBear.pex",
 	"Data\\Scripts\\Straya\\Quest\\Monitor.pex",
 	"Data\\Scripts\\Straya\\Quest.pex",

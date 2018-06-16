@@ -1,2 +1,5 @@
+v1.0.1
+Fixed a bug causing the Chronicle package management system to not receive game load events
+
 v1.0.0
 Initial release
