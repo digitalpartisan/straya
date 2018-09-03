@@ -1,7 +1,7 @@
 Scriptname Straya:Quest:DropBear extends ReferenceAlias
 
 Event OnAliasInit()
-	GetActorReference().StartCombat(Game.GetPlayer())
+	GetActorReference().StartCombat(Game.GetPlayer(), true)
 EndEvent
 
 Event OnDying(Actor akKiller)
