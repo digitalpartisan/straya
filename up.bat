@@ -1,1 +1,0 @@
-mklink /h "K:\Steam\steamapps\common\Fallout 4\Data\Straya.esp" "K:\FO4 Mods\Straya\Data\Straya.esp"
