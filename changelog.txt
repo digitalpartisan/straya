@@ -1,5 +1,6 @@
 v1.2.0
 Switched to Jiffy to simplify library dependencies
+Switched to ESL plugin
 
 v1.1.0
 Integrated Loggout v1.1.0
